@@ -1,7 +1,9 @@
 {
   "main": "index.js",
   "dependencies": {
-    "@antv/g6": "latest"
+    "@antv/g6": "latest",
+    "yarm": "^0.4.0",
+    "yarn": "^1.22.10"
   },
   "name": "gq4nq",
   "description": null,

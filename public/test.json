@@ -1,0 +1,3 @@
+{"nodes": [{"label":"2020C1-Lu\n Ming Rice_Tian-Shang Chang",
+  "id":"2020C1-Lu\n Ming Rice_Tian-Shang Chang"
+},{"label":"Biotic Suppression Operation","id":"Biotic Suppression Operation"},{"label":"Rice Seed Transplantation","id":"Rice Seed Transplantation"}],"edges": [{"source":"2020C1-Lu\n Ming Rice_Tian-Shang Chang","target":"Biotic Suppression Operation"},{"source":"2020C1-Lu\n Ming Rice_Tian-Shang Chang","target":"Rice Seed Transplantation"}]}

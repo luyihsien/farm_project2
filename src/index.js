@@ -12,31 +12,41 @@ const graph = new G6.Graph({
     preventOverlap: true,
   },
     defaultEdge:{style: {
-  endArrow: false,
-  startArrow: true,
+  endArrow: {
+    path: G6.Arrow.triangle(10, 10, 25),
+      d:25,// Using the built-in edges for the path, parameters are the width, length, offset (0 by default, corresponds to d), respectively
+      stroke:"#818181",
+      fill:"#818181"
+  },
 }},
   modes: {
     default: ['drag-canvas'],
   },
 });
 
-fetch('https://gw.alipayobjects.com/os/antvdemo/assets/data/relations.json')
+fetch('./test.json')
   .then((res) => res.json())
   .then((data) => {
     const nodes = data.nodes;
     // randomize the node size
     nodes.forEach((node) => {
-      node.size = 30;
+      node.size = 70;
     });
     graph.data({
       nodes,
-      edges: data.edges.map(function (edge, i) {
+      edges:data.edges.map(function (edge, i) {
         edge.id = 'edge' + i;
+        edge.color="#818181"
         return Object.assign({}, edge);
+
       }),
     });
     graph.render();
-
+    graph.on('node:click', (ev) => {
+        graph.getComboChildren().forEach((node)=>{
+            node.hide()
+        })
+});
     graph.on('node:dragstart', function (e) {
       graph.layout();
       refreshDragedNodePosition(e);

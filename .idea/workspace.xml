@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05e934f4-9bc2-454b-ae5f-6708d7a75609" name="Default Changelist" comment="" />
+    <list default="true" id="05e934f4-9bc2-454b-ae5f-6708d7a75609" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/relations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ryLXsW0lT2BYDpDuc5QiYpHtfe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -21,6 +30,12 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luyih\PycharmProjects\gq4nq\public" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,7 +47,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619943425823</updated>
-      <workItem from="1619943431742" duration="2752000" />
+      <workItem from="1619943431742" duration="10649000" />
+      <workItem from="1620439958145" duration="637000" />
+      <workItem from="1620548836455" duration="4784000" />
     </task>
     <servers />
   </component>
@@ -40,9 +57,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1619946372084">
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1620105588977">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1619946372084" />
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620105588977" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1620548886848">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620548886848" />
   </component>
 </project>
